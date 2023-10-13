@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Portfolio</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!-- icons cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/practice.css">
+
+
+  <!-- media query  -->
+  <style>
+    @media(max-width:567px) {
+      #aicon {
+        margin-left: -5px;
+      }
+
+      #id {
+        margin: auto;
+      }
+    }
+
+    @media(max-width:400px) {
+      #cnumber {
+        font-size: 10px;
+      }
+
+      #HC {
+        font-size: 9px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- header start  -->
+  <header>
+    <button id="btn" onclick="show()" class="d-xl-none d-lg-none"><i
+        class="fa fa-bars mobile-nav-toggle d-xl-none d-lg-none"></i></button>
+    <header id="header">
+      <div id="profile" class="d-flex flex-column">
+
+        <div class="profile"><br>
+          <center>
+            <img id="pi" src="img/IMG_20230621_180351.png" alt="img" height="150px" width="150px"
+              class="rounded-circle"><br><br>
+
+            <h1 class="text-light"><a href="index.html">MEHAK RANI</a></h1>
+          </center>
+          <div class="social-links mt-3 text-center">
+            <a href="https://twitter.com/MEHAKRANI27702" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/mehak-rani-97b0b8280/" class="facebook" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/dreamsofqoutes/" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div><br><br>
+
+        <div id="NAV">
+          <div class="container">
+            <div id="row" class="row">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                <a href=""><i id="icon" class="fa fa-home"></i></a>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                <a id="TEXT" href="#hero">HOME</a>
+              </div>
+            </div><br>
+            <div id="row" class="row">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                <a href=""><i id="icon" class="	fa fa-user-circle"></i></a>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                <a id="TEXT" href="#about">ABOUT</a>
+              </div>
+            </div><br>
+            <div id="row" class="row">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                <a href=""><i id="icon" class="fa fa-graduation-cap"></i></a>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                <a id="TEXT" href="#education">EDUCATION</a>
+              </div>
+            </div><br>
+            <div id="row" class="row">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                <a href=""><i id="icon" class="fa fa-bar-chart"></i></a>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                <a id="TEXT" href="#skills">SKILLS</a>
+              </div>
+            </div><br>
+            <div id="row" class="row">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                <a href=""><i id="icon" class="	fa fa-folder-open"></i></a>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                <a id="TEXT" href="#work">WORK</a>
+              </div>
+            </div><br>
+            <div id="row" class="row">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                <a href=""><i id="icon" class="fa fa-envelope-open-o"></i></a>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                <a id="TEXT" href="#contact">CONTACT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </header>
+  </header>
+  <!-- header end -->
+
+  <!-- hero start  -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <center>
+        <h1>MEHAK RANI</h1>
+        <h3>I AM A <span id="type"></span></h3>
+      </center>
+    </div>
+  </section>
+  <!-- hero end  -->
+
+  <!-- content start  -->
+  <section id="content">
+
+    <!-- about start -->
+    <section id="about">
+      <br><br>
+      <h1 id="abouth">ABOUT</h1><br><br>
+
+      <div id="arow" class="row">
+
+        <div id="mypic" class="col-lg-5 col-md-5 col-sm-12 col-12">
+          <!-- <img src="img/IMG-20210831-WA0024.jpg" alt="img"> -->
+        </div>
+
+        <div class="col-lg-6 col-md-5 col-sm-12 col-12">
+          <div id="id">
+            <br><br>
+            <center><h1 id="abouth">DETAILS</h1></center>
+            <br><br>
+            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <i id="aicon" class="	fa fa-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span id="detaila">NAME:&nbsp;&nbsp;&nbsp; Mehak Rani</span><br><br>
+            </div>
+
+            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <i id="aicon" class="	fa fa-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span id="detaila">FATHER NAME: Manohar Lal</span><br><br>
+            </div>
+
+            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <i id="aicon" class="	fa fa-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span id="detaila">D.O.B:&nbsp;&nbsp;&nbsp; 27<sup>th</sup>-July-2002</span><br><br>
+            </div>
+
+            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <i id="aicon" class="	fa fa-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span id="detaila">CITY:&nbsp;&nbsp;&nbsp; Sharjah, UAE</span><br><br>
+            </div>
+
+            <br>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div id="detail" data-aos="fade-up" data-aos-duration="3000" class="container mt-5">
+        <h5>I am a student by profession. My true passion is finance and accounting but as I love designing I can also
+          create UI designs and designs on MS word. I don’t have professional work experience but I can work properly on
+          MS word and PowerPoint. I have also worked on MS excel. I like to study and I am preparing myself for BBA
+          (Accounting and Finance) in University Of Sharjah.</h5>
+      </div>
+    </section><br>
+    <!-- about end  -->
+
+    <!-- education start  -->
+    <section id="education">
+      <br><br>
+      <h1 id="abouth">EDUCATION</h1>
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-12 mt-5">
+            <div id="matric" class="card justify-content-center align-items-center">
+              <h2 id="EM">MATRICULATION</h32>
+                <div id="content1" class="justify-content-center align-items-center"><br><br><br>
+                  <center>
+                    <div id="cb">
+                      To know the details of my Matriculation plz click on the button.
+                    </div><br><br>
+                    <button id="btnm" type="button" data-bs-toggle="modal" data-bs-target="#Modal1">DETAIL</button>
+                  </center>
+
+                  <!-- modal1 start -->
+                  <div class="modal" id="Modal1">
+                    <div class="modal-dialog"><br><br><br><br>
+                      <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div id="MH" class="modal-header">
+                          <h4 class="modal-title">MATRICULATION</h4>
+                          <button type="button" id="closem" class="btn btn-danger text-light fa fa-remove"
+                            data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          <button id="myear">2018-2020</button><br>
+                          <p id="mdetail" class="mt-3">I completed my matriculation from 2018-2020 in (Y.W.C.A) Little
+                            Star Girls
+                            Secondary School with A Grade.</p>
+                          <div id="wdd1">
+                            <i id="micon" class="	fa fa-chevron-right"></i>&nbsp;
+                            <span id="detailm">In SSC Part-I I scored 75%.</span><br>
+                            <i id="micon" class="	fa fa-chevron-right"></i>&nbsp;
+                            <span id="detailm">In SSC Part-II I scored 76%.</span><br><br>
+                          </div>
+                        </div>
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- modal1 end -->
+                </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-12 mt-5">
+            <div id="inter" class="card justify-content-center align-items-center">
+              <h2 id="EM">ITNERMEDIATE</h32>
+                <div id="content2" class="justify-content-center align-items-center"><br><br><br>
+                  <center>
+                    <div id="cb2">
+                      To know the details of my Intermediate plz click on the button.
+                    </div><br><br>
+                    <button id="btnm2" type="button" data-bs-toggle="modal" data-bs-target="#Modal2">DETAIL</button>
+                  </center>
+
+                  <!-- modal2 start -->
+                  <div class="modal" id="Modal2">
+                    <div class="modal-dialog"><br><br><br><br>
+                      <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div id="IH" class="modal-header">
+                          <h4 class="modal-title">ITNERMEDIATE</h4>
+                          <button type="button" id="closem" class="btn btn-danger text-light fa fa-remove"
+                            data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          <button id="iyear">2020-2022</button><br>
+                          <p id="mdetail" class="mt-3">Then I completed my intermediate degree from 2020-2022 in
+                            Government College
+                            for Women Shahrah-e-Liaquat with A+ Grade.</p>
+                          <div id="wdd2">
+                            <i id="iicon" class="	fa fa-chevron-right"></i>&nbsp;
+                            <span id="detailm">In HSC Part-I I scored 88%.</span><br>
+                            <i id="iicon" class="	fa fa-chevron-right"></i>&nbsp;
+                            <span id="detailm">In HSC Part-II I scored 83%.</span><br><br>
+                          </div>
+                        </div>
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- modal2 end -->
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+
+          <div id="le" class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 mt-5">
+            <div id="WB" class="card justify-content-center align-items-center">
+              <h2 id="EM">WEB DESIGNING</h2>
+              <div id="content3" class="justify-content-center align-items-center"><br><br><br>
+                <center>
+                  <div id="cb3">
+                    To know the details of my Web designing Course plz click on the button.
+                  </div><br><br>
+                  <button id="btnm3" type="button" data-bs-toggle="modal" data-bs-target="#Modal3">DETAIL</button>
+                </center>
+
+                <!-- modal3 start -->
+                <div class="modal" id="Modal3">
+                  <div class="modal-dialog"><br><br><br><br>
+                    <div class="modal-content">
+
+                      <!-- Modal Header -->
+                      <div id="WH" class="modal-header">
+                        <h4 class="modal-title">WEB DESIGNING</h4>
+                        <button type="button" id="closem" class="btn btn-danger text-light fa fa-remove"
+                          data-bs-dismiss="modal"></button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <p id="mdetail" class="mt-3">I have completed the course of website designing and I have
+                          the abilities to use:</p>
+                        <div id="wdd">
+                          <i id="Wicon" class="	fa fa-chevron-right"></i>&nbsp;
+                          <span id="detailm">HTML</span><br>
+                          <i id="Wicon" class="	fa fa-chevron-right"></i>&nbsp;
+                          <span id="detailm">CSS</span><br>
+                          <i id="Wicon" class="	fa fa-chevron-right"></i>&nbsp;
+                          <span id="detailm">JAVASCRIPT</span><br>
+                          <i id="Wicon" class="	fa fa-chevron-right"></i>&nbsp;
+                          <span id="detailm">BOOTSTRAP</span><br>
+                          <i id="Wicon" class="	fa fa-chevron-right"></i>&nbsp;
+                          <span id="detailm">JQUERY</span><br>
+                        </div>
+                      </div>
+
+
+
+                    </div>
+                  </div>
+                </div>
+                <!-- modal3 end -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><br><br>
+    <!-- education end  -->
+
+
+    <!-- skills start  -->
+    <section id="skills">
+      <h1 id="abouth">SKILLS</h1>
+
+      <div id="progress-bars"><br><br>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+              <i id="Picon" class="	fa fa-chevron-right"></i>&nbsp;
+              <span id="detailP">HTML</span><br>
+              <div class="progress">
+                <div class="progress-bar" id="html">95%</div>
+              </div>
+              <br><br>
+
+              <i id="Picon" class="	fa fa-chevron-right"></i>&nbsp;
+              <span id="detailP">CSS</span><br>
+              <div class="progress">
+                <div class="progress-bar" id="CSS">90%</div>
+              </div><br><br>
+
+              <i id="Picon" class="	fa fa-chevron-right"></i>&nbsp;
+              <span id="detailP">JAVASCRIPT</span><br>
+              <div class="progress">
+                <div class="progress-bar" id="JS">60%</div>
+              </div><br><br>
+
+              <i id="Picon" class="	fa fa-chevron-right"></i>&nbsp;
+              <span id="detailP">BOOTSTRAP</span><br>
+              <div class="progress">
+                <div class="progress-bar" id="BS">95%</div>
+              </div><br><br>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+              <i id="Picon" class="	fa fa-chevron-right"></i>&nbsp;
+              <span id="detailP">JQUERY</span><br>
+              <div class="progress">
+                <div class="progress-bar" id="JQ">60%</div>
+              </div><br><br>
+
+              <i id="Picon" class="	fa fa-chevron-right"></i>&nbsp;
+              <span id="detailP">MS WORD</span><br>
+              <div class="progress">
+                <div class="progress-bar" id="MSW">95%</div>
+              </div><br><br>
+
+              <i id="Picon" class="	fa fa-chevron-right"></i>&nbsp;
+              <span id="detailP">MS POWERPOINT</span><br>
+              <div class="progress">
+                <div class="progress-bar" id="MSP">95%</div>
+              </div><br><br>
+
+              <i id="Picon" class="	fa fa-chevron-right"></i>&nbsp;
+              <span id="detailP">MS EXCEL</span><br>
+              <div class="progress">
+                <div class="progress-bar" id="MSE">65%</div>
+              </div><br><br>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+      </div>
+    </section><br><br>
+    <!-- skills end  -->
+
+
+    <!-- work start  -->
+    <section id="work">
+      <h1 id="abouth">WORK</h1><br><br>
+
+      <!-- buttons start  -->
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mt-3">
+            <center>
+              <button id="all">ALL</button>
+            </center>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mt-3">
+            <center>
+              <button id="word">MS WORD</button>
+            </center>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mt-3">
+            <center>
+              <button id="excel">MS EXCEL</button>
+            </center>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mt-3">
+            <center>
+              <button id="ui">UI DESIGNS</button>
+            </center>
+          </div>
+
+        </div>
+      </div>
+      <!-- buttons end  -->
+
+      <!-- work files start -->
+      <div class="conatiner">
+        <center>
+          <div class="row mt-5">
+
+            <div id="wc1" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+              <a id="as" href="PROJECT/ATTENDANCESHEET.xlsx">
+                <div id="cw" class="card">
+                  <img class="card-img-top" src="img/project.jpg" height="250px" alt="Card image">
+                  <div class="card-body">
+                    <center>
+                      <h4 class="card-title">ATTENDANCE SHEET</h4>
+                    </center>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="wc2" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+              <a id="as" href="PROJECT/SALES RECORD.xlsx">
+                <div id="cw" class="card">
+                  <img class="card-img-top" src="img/PROJECT3.jpg" height="250px" alt="Card image">
+                  <div class="card-body">
+                    <center>
+                      <h4 class="card-title">SALES RECORD</h4>
+                    </center>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="wc3" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+              <a id="as" href="PROJECT/MARKSHEET (2).xlsx">
+                <div id="cw" class="card">
+                  <img class="card-img-top" src="img/PROJECT2.jpg" height="250px" alt="Card image">
+                  <div class="card-body">
+                    <center>
+                      <h4 class="card-title">MARKSHEET</h4>
+                    </center>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="wc4" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+              <a id="as" href="PROJECT/KEANSBURG PARK DOCUMANTATION.pdf" target="_blank">
+                <div id="cw" class="card">
+                  <img class="card-img-top" src="img/project4.jpg" height="250px" alt="Card image">
+                  <div class="card-body">
+                    <center>
+                      <h4 class="card-title">KEANSBURG PARK DOCUMENTAION</h4>
+                    </center>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="wc5" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+              <a id="as" href="PROJECT/RESUME.pdf" target="_blank">
+                <div id="cw" class="card">
+                  <img class="card-img-top" src="img/project5.jpg" height="250px" alt="Card image">
+                  <div class="card-body">
+                    <center>
+                      <h4 class="card-title">RESUME</h4>
+                    </center>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="wc6" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+              <a id="as" href="PROJECT/EDUCATION SYSTEM OF PAKISTAN 2.pptx">
+                <div id="cw" class="card">
+                  <img class="card-img-top" src="img/project6.jpeg" height="250px" alt="Card image">
+                  <div class="card-body">
+                    <center>
+                      <h4 class="card-title">PRESENTATION</h4>
+                    </center>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="wc7" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+              <a id="as" href="https://mehakrani2.github.io/perfume/" target="_blank">
+                <div id="cw" class="card">
+                  <img class="card-img-top" src="img/PROJECT7.jpg" height="250px" alt="Card image">
+                  <div class="card-body">
+                    <center>
+                      <h4 class="card-title">PERFUME</h4>
+                    </center>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="wc8" class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+              <a id="as" href="https://mehakrani2.github.io/park/" target="_blank">
+                <div id="cw" class="card">
+                  <img class="card-img-top" src="img/project8.jpg" height="250px" alt="Card image">
+                  <div class="card-body">
+                    <center>
+                      <h4 class="card-title">PARK DESIGN</h4>
+                    </center>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </center>
+      </div>
+      <!-- work files end -->
+
+    </section><br><br><br><br><br><br>
+    <!-- work end  -->
+
+    <!-- contact start -->
+    <center>
+      <section id="contact"><br><br><br><br><br><br><br><br>
+        <center>
+          <div id="contactm" class="justify-content-center align-items-center">
+
+            <div id="crow" class="row">
+
+              <div id="cnumber" class="col-3 justify-content-center align-items-center"><br><br>
+                <center>
+                  <i id="iconc" class="fa fa-envelope"></i><br><br>
+                  <h5 id="HC">EMAIL</h5>
+                  <p id="detailc">mehakraniadamjee26 <br> @gmail.com</p>
+                </center>
+              </div>
+
+              <div id="cnumber" class="col-3 justify-content-center align-items-center"><br><br>
+                <center>
+                  <i id="iconc" class="fa fa-phone"></i><br><br>
+                  <h5 id="HC">WHATSAPP NO.</h5>
+                  <p id="detailc">0332-3244127</p>
+                </center>
+              </div>
+
+              <div id="cnumber" class="col-3 justify-content-center align-items-center"><br><br>
+                <center>
+                  <i id="iconc" class="fas fa-map-marker-alt"></i><br><br>
+                  <h5 id="HC">ADDRESS</h5>
+                  <p id="detailc">Dimas building Muweilah Commercial,<br>Sharjah</p>
+                </center>
+              </div>
+
+            </div>
+
+            <h1 id="cmh">GET IN TOUCH</h1><br>
+            <p id="cmd">
+              If you are interested in my portfolio you contact me via my <br>
+              Email address and contact number provided above.
+            </p>
+
+          </div>
+        </center>
+        <br><br><br>
+      </section>
+    </center>
+    <!-- contact end -->
+
+  </section>
+  <!-- content end -->
+
+  <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+
+  <!-- animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- typed -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"
+    integrity="sha512-zKaK6G2LZC5YZTX0vKmD7xOwd1zrEEMal4zlTf5Ved/A1RrnW+qt8pWDfo7oz+xeChECS/P9dv6EDwwPwelFfQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#type', {
+      strings: ['STUDENT', 'WEB DESIGNER'],
+      // loopCount: Infinity,
+      typeSpeed: 150,
+      backSpeed: 100,
+      loop: true,
+      // smartBackspace: true, 
+      // Default value
+    });
+  </script>
+
+  <!-- JS Page -->
+  <script src="js/paractice.js"></script>
+
+  <!-- whatsapp button -->
+  <script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?9698';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+        "enabled": true,
+        "chatButtonSetting": {
+            "backgroundColor": "#da7784",
+            "ctaText": "",
+            "borderRadius": "25",
+            "marginLeft": "0",
+            "marginBottom": "50",
+            "marginRight": "50",
+            "position": "right"
+        },
+        "brandSetting": {
+            "brandName": "Mehak Rani",
+            "brandSubTitle": "I work to make the ideas come alive on internet",
+            "brandImg": "https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+            "welcomeText": "Hi there!\nHow can I help you?",
+            "messageText": "Hello, I have seen your portfolio and....",
+            "backgroundColor": "#0a5f54",
+            "ctaText": "Start Chat",
+            "borderRadius": "25",
+            "autoShow": false,
+            "phoneNumber": "923323244127"
+        }
+    };
+    s.onload = function () {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
